@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +16,198 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zoom2Center" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beach.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AId-Vh-df5">
+                                <rect key="frame" x="-8" y="-8" width="683" height="391"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish.png" translatesAutoresizingMaskIntoConstraints="NO" id="rzM-gD-A7W">
+                                <rect key="frame" x="7" y="162" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="8yj-yH-OQH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="102" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish-7.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kei-x2-Vub">
+                                <rect key="frame" x="40" y="76" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Kgy-el-Z7S"/>
+                                    <constraint firstAttribute="width" constant="50" id="OSl-96-7DS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish-6.png" translatesAutoresizingMaskIntoConstraints="NO" id="vj6-Lv-eS4">
+                                <rect key="frame" x="113" y="11" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="iYy-VV-aEJ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="104" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish-5.png" translatesAutoresizingMaskIntoConstraints="NO" id="rFf-zq-SHF">
+                                <rect key="frame" x="239" y="11" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="cBJ-0M-BIx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="106" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="D3m-Fd-dAp">
+                                <rect key="frame" x="507" y="11" width="50" height="50"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="107" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pe3-x7-eRm">
+                                <rect key="frame" x="597" y="76" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Bvn-NI-34m"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="108" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="zKM-lo-str">
+                                <rect key="frame" x="597" y="162" width="50" height="50"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="105" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clown-fish.png" translatesAutoresizingMaskIntoConstraints="NO" id="cox-hS-FAx">
+                                <rect key="frame" x="382" y="11" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="fUH-0O-jsq"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18y-Wj-fFF">
+                                <rect key="frame" x="7" y="162" width="50" height="50"/>
+                                <connections>
+                                    <action selector="fishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gUa-HU-IWa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mu5-Gn-svJ">
+                                <rect key="frame" x="40" y="76" width="50" height="50"/>
+                                <connections>
+                                    <action selector="fishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SjH-WA-r7d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2R9-AN-IQP">
+                                <rect key="frame" x="113" y="11" width="50" height="50"/>
+                                <connections>
+                                    <action selector="fishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9I6-hz-4mI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lw1-ik-WCg">
+                                <rect key="frame" x="239" y="11" width="50" height="30"/>
+                                <connections>
+                                    <action selector="fishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TSS-My-5wA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZc-tZ-RmQ">
+                                <rect key="frame" x="382" y="11" width="50" height="30"/>
+                                <connections>
+                                    <action selector="fishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ts1-KT-3hM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7T8-nI-D3W">
+                                <rect key="frame" x="507" y="11" width="50" height="30"/>
+                                <connections>
+                                    <action selector="fishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D5h-bt-AaK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="107" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA4-ZC-xVC">
+                                <rect key="frame" x="597" y="76" width="50" height="30"/>
+                                <connections>
+                                    <action selector="fishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9o-kV-iHR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="108" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xh-Rs-HCC">
+                                <rect key="frame" x="597" y="162" width="50" height="30"/>
+                                <connections>
+                                    <action selector="fishButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VQi-fi-LuU"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rFf-zq-SHF" firstAttribute="leading" secondItem="vj6-Lv-eS4" secondAttribute="trailing" constant="76" id="0Gf-YR-yg8"/>
+                            <constraint firstItem="xZc-tZ-RmQ" firstAttribute="baseline" secondItem="7T8-nI-D3W" secondAttribute="firstBaseline" id="0Hq-Zq-ucy"/>
+                            <constraint firstItem="D3m-Fd-dAp" firstAttribute="leading" secondItem="cox-hS-FAx" secondAttribute="trailing" constant="75" id="0ie-be-Dhm"/>
+                            <constraint firstItem="7T8-nI-D3W" firstAttribute="baseline" secondItem="xZc-tZ-RmQ" secondAttribute="firstBaseline" id="126-n0-dAX"/>
+                            <constraint firstItem="ZA4-ZC-xVC" firstAttribute="leading" secondItem="Pe3-x7-eRm" secondAttribute="leading" id="2sN-ea-4f7"/>
+                            <constraint firstItem="xZc-tZ-RmQ" firstAttribute="top" secondItem="cox-hS-FAx" secondAttribute="top" id="3C5-IP-1Zm"/>
+                            <constraint firstItem="lw1-ik-WCg" firstAttribute="baseline" secondItem="xZc-tZ-RmQ" secondAttribute="baseline" id="6rd-Iq-i7w"/>
+                            <constraint firstItem="ZA4-ZC-xVC" firstAttribute="top" secondItem="Pe3-x7-eRm" secondAttribute="top" id="933-7g-Gl6"/>
+                            <constraint firstItem="5Xh-Rs-HCC" firstAttribute="top" secondItem="zKM-lo-str" secondAttribute="top" id="9gx-da-tLd"/>
+                            <constraint firstItem="rzM-gD-A7W" firstAttribute="top" secondItem="zKM-lo-str" secondAttribute="top" id="B72-gj-nod"/>
+                            <constraint firstItem="2R9-AN-IQP" firstAttribute="bottom" secondItem="vj6-Lv-eS4" secondAttribute="bottom" id="BZT-OX-xNn"/>
+                            <constraint firstItem="xZc-tZ-RmQ" firstAttribute="trailing" secondItem="cox-hS-FAx" secondAttribute="trailing" id="CAv-dw-YmH"/>
+                            <constraint firstItem="cox-hS-FAx" firstAttribute="bottom" secondItem="D3m-Fd-dAp" secondAttribute="bottom" id="E35-uY-oDH"/>
+                            <constraint firstItem="mu5-Gn-svJ" firstAttribute="top" secondItem="Kei-x2-Vub" secondAttribute="top" id="Gtb-gJ-Fik"/>
+                            <constraint firstItem="mu5-Gn-svJ" firstAttribute="bottom" secondItem="Kei-x2-Vub" secondAttribute="bottom" id="HuV-PJ-pkj"/>
+                            <constraint firstItem="rFf-zq-SHF" firstAttribute="bottom" secondItem="cox-hS-FAx" secondAttribute="bottom" id="Lls-kE-gTf"/>
+                            <constraint firstItem="18y-Wj-fFF" firstAttribute="bottom" secondItem="rzM-gD-A7W" secondAttribute="bottom" id="LnO-hL-A6v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AId-Vh-df5" secondAttribute="bottomMargin" id="N0e-ua-tQ9"/>
+                            <constraint firstItem="ZA4-ZC-xVC" firstAttribute="trailing" secondItem="Pe3-x7-eRm" secondAttribute="trailing" id="NRA-hY-Avn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vj6-Lv-eS4" secondAttribute="bottom" constant="314" id="Nyt-GS-ZBr"/>
+                            <constraint firstItem="18y-Wj-fFF" firstAttribute="top" secondItem="rzM-gD-A7W" secondAttribute="top" id="O7z-1d-ZbL"/>
+                            <constraint firstItem="rzM-gD-A7W" firstAttribute="centerY" secondItem="AId-Vh-df5" secondAttribute="centerY" id="OZ2-se-EBJ"/>
+                            <constraint firstItem="cox-hS-FAx" firstAttribute="top" secondItem="D3m-Fd-dAp" secondAttribute="top" id="QQI-58-2sx"/>
+                            <constraint firstItem="AId-Vh-df5" firstAttribute="leadingMargin" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QVB-Za-TYR"/>
+                            <constraint firstItem="7T8-nI-D3W" firstAttribute="top" secondItem="D3m-Fd-dAp" secondAttribute="top" id="Qxo-iE-YRf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AId-Vh-df5" secondAttribute="trailingMargin" id="TkW-RL-mFz"/>
+                            <constraint firstItem="rzM-gD-A7W" firstAttribute="top" secondItem="Kei-x2-Vub" secondAttribute="bottom" constant="36" id="VSr-7q-MMN"/>
+                            <constraint firstItem="rFf-zq-SHF" firstAttribute="top" secondItem="cox-hS-FAx" secondAttribute="top" id="Vm7-jg-Vwr"/>
+                            <constraint firstItem="mu5-Gn-svJ" firstAttribute="trailing" secondItem="Kei-x2-Vub" secondAttribute="trailing" id="a4X-sg-LGZ"/>
+                            <constraint firstItem="mu5-Gn-svJ" firstAttribute="leading" secondItem="Kei-x2-Vub" secondAttribute="leading" id="aI9-HC-yFw"/>
+                            <constraint firstItem="vj6-Lv-eS4" firstAttribute="bottom" secondItem="rFf-zq-SHF" secondAttribute="bottom" id="bEg-bi-Ry0"/>
+                            <constraint firstItem="AId-Vh-df5" firstAttribute="topMargin" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bT8-Ik-aJL"/>
+                            <constraint firstItem="Kei-x2-Vub" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="bmn-Ox-fjl"/>
+                            <constraint firstItem="rzM-gD-A7W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="cLL-6A-ZKZ"/>
+                            <constraint firstItem="Kei-x2-Vub" firstAttribute="bottom" secondItem="Pe3-x7-eRm" secondAttribute="bottom" id="clL-4w-d8A"/>
+                            <constraint firstItem="lw1-ik-WCg" firstAttribute="top" secondItem="rFf-zq-SHF" secondAttribute="top" id="dBf-wi-a2v"/>
+                            <constraint firstItem="cox-hS-FAx" firstAttribute="leading" secondItem="rFf-zq-SHF" secondAttribute="trailing" constant="93" id="e6N-3a-pwW"/>
+                            <constraint firstItem="Kei-x2-Vub" firstAttribute="top" secondItem="Pe3-x7-eRm" secondAttribute="top" id="e9U-bx-vgu"/>
+                            <constraint firstItem="rzM-gD-A7W" firstAttribute="bottom" secondItem="zKM-lo-str" secondAttribute="bottom" id="eHD-cP-rU9"/>
+                            <constraint firstItem="2R9-AN-IQP" firstAttribute="trailing" secondItem="vj6-Lv-eS4" secondAttribute="trailing" id="esv-h3-u7R"/>
+                            <constraint firstItem="2R9-AN-IQP" firstAttribute="top" secondItem="vj6-Lv-eS4" secondAttribute="top" id="ff6-iN-zsQ"/>
+                            <constraint firstItem="vj6-Lv-eS4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="g0a-h7-Qte"/>
+                            <constraint firstItem="2R9-AN-IQP" firstAttribute="baseline" secondItem="lw1-ik-WCg" secondAttribute="firstBaseline" id="jsp-7f-08G"/>
+                            <constraint firstItem="Pe3-x7-eRm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="k1f-hi-5tc"/>
+                            <constraint firstItem="xZc-tZ-RmQ" firstAttribute="leading" secondItem="cox-hS-FAx" secondAttribute="leading" id="l72-fR-5vF"/>
+                            <constraint firstItem="vj6-Lv-eS4" firstAttribute="top" secondItem="rFf-zq-SHF" secondAttribute="top" id="liB-1c-uEx"/>
+                            <constraint firstItem="7T8-nI-D3W" firstAttribute="leading" secondItem="D3m-Fd-dAp" secondAttribute="leading" id="lrc-8X-Tyl"/>
+                            <constraint firstItem="Kei-x2-Vub" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="nta-6P-tzQ"/>
+                            <constraint firstItem="lw1-ik-WCg" firstAttribute="trailing" secondItem="rFf-zq-SHF" secondAttribute="trailing" id="nw6-2u-xa1"/>
+                            <constraint firstItem="lw1-ik-WCg" firstAttribute="leading" secondItem="rFf-zq-SHF" secondAttribute="leading" id="ob9-De-scd"/>
+                            <constraint firstItem="5Xh-Rs-HCC" firstAttribute="trailing" secondItem="zKM-lo-str" secondAttribute="trailing" id="ov0-pO-RyQ"/>
+                            <constraint firstItem="7T8-nI-D3W" firstAttribute="trailing" secondItem="D3m-Fd-dAp" secondAttribute="trailing" id="ovt-q2-kBo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D3m-Fd-dAp" secondAttribute="trailing" constant="110" id="qLK-GC-bmV"/>
+                            <constraint firstItem="18y-Wj-fFF" firstAttribute="baseline" secondItem="5Xh-Rs-HCC" secondAttribute="firstBaseline" id="sEn-IG-GXp"/>
+                            <constraint firstItem="18y-Wj-fFF" firstAttribute="leading" secondItem="rzM-gD-A7W" secondAttribute="leading" id="scl-Oj-1ul"/>
+                            <constraint firstItem="zKM-lo-str" firstAttribute="leading" secondItem="Pe3-x7-eRm" secondAttribute="leading" id="snM-R6-tEG"/>
+                            <constraint firstItem="vj6-Lv-eS4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="snd-jz-2tG"/>
+                            <constraint firstItem="zKM-lo-str" firstAttribute="trailing" secondItem="Pe3-x7-eRm" secondAttribute="trailing" id="tZv-hg-Pjh"/>
+                            <constraint firstItem="5Xh-Rs-HCC" firstAttribute="leading" secondItem="zKM-lo-str" secondAttribute="leading" id="vIh-xw-5tE"/>
+                            <constraint firstItem="2R9-AN-IQP" firstAttribute="leading" secondItem="vj6-Lv-eS4" secondAttribute="leading" id="wtX-Gr-ROh"/>
+                            <constraint firstItem="mu5-Gn-svJ" firstAttribute="baseline" secondItem="ZA4-ZC-xVC" secondAttribute="firstBaseline" id="ya4-Ql-lxL"/>
+                            <constraint firstItem="18y-Wj-fFF" firstAttribute="trailing" secondItem="rzM-gD-A7W" secondAttribute="trailing" id="z1H-hR-0FL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="fish1" destination="rzM-gD-A7W" id="OcE-Al-xgy"/>
+                        <outlet property="fish2" destination="Kei-x2-Vub" id="uR6-cs-9lk"/>
+                        <outlet property="fish3" destination="vj6-Lv-eS4" id="weo-UH-jRu"/>
+                        <outlet property="fish4" destination="rFf-zq-SHF" id="4oC-uu-LfX"/>
+                        <outlet property="fish5" destination="cox-hS-FAx" id="nNK-TA-bGF"/>
+                        <outlet property="fish6" destination="D3m-Fd-dAp" id="VMM-go-eC8"/>
+                        <outlet property="fish7" destination="Pe3-x7-eRm" id="WTR-51-kEQ"/>
+                        <outlet property="fish8" destination="zKM-lo-str" id="P28-rQ-24g"/>
+                        <outletCollection property="fishButton" destination="18y-Wj-fFF" collectionClass="NSMutableArray" id="NFt-Xf-gID"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="beach.jpg" width="5616" height="3744"/>
+        <image name="clown-fish.png" width="512" height="512"/>
+        <image name="fish-2.png" width="512" height="512"/>
+        <image name="fish-3.png" width="512" height="512"/>
+        <image name="fish-4.png" width="512" height="512"/>
+        <image name="fish-5.png" width="512" height="512"/>
+        <image name="fish-6.png" width="512" height="512"/>
+        <image name="fish-7.png" width="512" height="512"/>
+        <image name="fish.png" width="512" height="512"/>
+    </resources>
 </document>

@@ -14,6 +14,15 @@
 		896B51E520E7ABF800DC7E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896B51E320E7ABF800DC7E4E /* LaunchScreen.storyboard */; };
 		896B51F020E7ABF800DC7E4E /* Zoom2CenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B51EF20E7ABF800DC7E4E /* Zoom2CenterTests.swift */; };
 		896B51FB20E7ABF800DC7E4E /* Zoom2CenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B51FA20E7ABF800DC7E4E /* Zoom2CenterUITests.swift */; };
+		896B520920E7AC8700DC7E4E /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 896B520820E7AC8600DC7E4E /* beach.jpg */; };
+		896B521220E7AD8000DC7E4E /* clown-fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B520B20E7AD7F00DC7E4E /* clown-fish.png */; };
+		896B521320E7AD8000DC7E4E /* fish-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B520C20E7AD7F00DC7E4E /* fish-2.png */; };
+		896B521420E7AD8000DC7E4E /* fish-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B520D20E7AD8000DC7E4E /* fish-5.png */; };
+		896B521520E7AD8000DC7E4E /* fish-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B520E20E7AD8000DC7E4E /* fish-4.png */; };
+		896B521620E7AD8000DC7E4E /* fish-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B520F20E7AD8000DC7E4E /* fish-3.png */; };
+		896B521720E7AD8000DC7E4E /* fish-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B521020E7AD8000DC7E4E /* fish-6.png */; };
+		896B521820E7AD8000DC7E4E /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B521120E7AD8000DC7E4E /* fish.png */; };
+		896B521A20E7ADF500DC7E4E /* fish-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B521920E7ADF500DC7E4E /* fish-7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		896B51D720E7ABF600DC7E4E /* Zoom2Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoom2Center.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		896B51DA20E7ABF600DC7E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		896B51DC20E7ABF600DC7E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		896B51DC20E7ABF600DC7E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		896B51DF20E7ABF600DC7E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		896B51E120E7ABF800DC7E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896B51E420E7ABF800DC7E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		896B51F620E7ABF800DC7E4E /* Zoom2CenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zoom2CenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		896B51FA20E7ABF800DC7E4E /* Zoom2CenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoom2CenterUITests.swift; sourceTree = "<group>"; };
 		896B51FC20E7ABF800DC7E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896B520820E7AC8600DC7E4E /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		896B520B20E7AD7F00DC7E4E /* clown-fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clown-fish.png"; sourceTree = "<group>"; };
+		896B520C20E7AD7F00DC7E4E /* fish-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish-2.png"; sourceTree = "<group>"; };
+		896B520D20E7AD8000DC7E4E /* fish-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish-5.png"; sourceTree = "<group>"; };
+		896B520E20E7AD8000DC7E4E /* fish-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish-4.png"; sourceTree = "<group>"; };
+		896B520F20E7AD8000DC7E4E /* fish-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish-3.png"; sourceTree = "<group>"; };
+		896B521020E7AD8000DC7E4E /* fish-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish-6.png"; sourceTree = "<group>"; };
+		896B521120E7AD8000DC7E4E /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		896B521920E7ADF500DC7E4E /* fish-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish-7.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,7 @@
 		896B51D920E7ABF600DC7E4E /* Zoom2Center */ = {
 			isa = PBXGroup;
 			children = (
+				896B520A20E7AD6B00DC7E4E /* Images */,
 				896B51DA20E7ABF600DC7E4E /* AppDelegate.swift */,
 				896B51DC20E7ABF600DC7E4E /* ViewController.swift */,
 				896B51DE20E7ABF600DC7E4E /* Main.storyboard */,
@@ -123,6 +142,22 @@
 				896B51FC20E7ABF800DC7E4E /* Info.plist */,
 			);
 			path = Zoom2CenterUITests;
+			sourceTree = "<group>";
+		};
+		896B520A20E7AD6B00DC7E4E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				896B520820E7AC8600DC7E4E /* beach.jpg */,
+				896B520B20E7AD7F00DC7E4E /* clown-fish.png */,
+				896B520C20E7AD7F00DC7E4E /* fish-2.png */,
+				896B520F20E7AD8000DC7E4E /* fish-3.png */,
+				896B520E20E7AD8000DC7E4E /* fish-4.png */,
+				896B520D20E7AD8000DC7E4E /* fish-5.png */,
+				896B521020E7AD8000DC7E4E /* fish-6.png */,
+				896B521920E7ADF500DC7E4E /* fish-7.png */,
+				896B521120E7AD8000DC7E4E /* fish.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +264,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896B521520E7AD8000DC7E4E /* fish-4.png in Resources */,
+				896B521620E7AD8000DC7E4E /* fish-3.png in Resources */,
 				896B51E520E7ABF800DC7E4E /* LaunchScreen.storyboard in Resources */,
+				896B521A20E7ADF500DC7E4E /* fish-7.png in Resources */,
+				896B521220E7AD8000DC7E4E /* clown-fish.png in Resources */,
+				896B521320E7AD8000DC7E4E /* fish-2.png in Resources */,
 				896B51E220E7ABF800DC7E4E /* Assets.xcassets in Resources */,
+				896B521720E7AD8000DC7E4E /* fish-6.png in Resources */,
 				896B51E020E7ABF600DC7E4E /* Main.storyboard in Resources */,
+				896B520920E7AC8700DC7E4E /* beach.jpg in Resources */,
+				896B521820E7AD8000DC7E4E /* fish.png in Resources */,
+				896B521420E7AD8000DC7E4E /* fish-5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = Zoom2Center/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = Zoom2Center/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
